@@ -1,0 +1,52 @@
+section {
+  padding-top: 6rem;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #e2edff;
+}
+
+/* Section Skill */
+#skill {
+  background-color: #e2edff;
+}
+#skill .bar {
+  background-color: #fff;
+  height: 30px;
+  border: 1px solid #ddd;
+  margin: 5px 0 20px 0;
+}
+
+.bar .nilai {
+  height: 30px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  background-color: #f84744;
+}
+
+.html {
+  width: 90%;
+}
+
+.css {
+  width: 85%;
+}
+
+.js {
+  width: 70%;
+}
+
+.java {
+  width: 77%;
+}
+
+.sql {
+  width: 83%;
+}
+
+/* Section Contact */
+#contact {
+  background-color: #e2edff;
+}

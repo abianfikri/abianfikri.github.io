@@ -22,4 +22,7 @@ let words = "";
   setTimeout(ngetik, 400);
 })();
 
-alert("Selamat Datang");
+function tampilData() {
+  var nama = document.getElementById("name").value;
+  alert("Terima kasih " + nama + " ,Pesan Anda Telah terkirim😊");
+}

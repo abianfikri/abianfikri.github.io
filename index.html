@@ -11,45 +11,52 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Font Awosome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   </head>
 
   <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#" style="text-transform: uppercase">Abian Ayatullah Fikri</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <!-- Header Bikin Sendiri Tanpa Boostrap -->
+    <!-- Start SideBar -->
+    <input type="checkbox" id="check" />
+    <div class="sidebar fixed-top">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <!-- End Side Bar -->
+
+    <!-- Header -->
+    <header class="fixed-top">
+      <div class="container2">
+        <h1><a href="index.html">abian</a></h1>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- Mobile-Menu -->
+        <label for="check" class="mobile-menu"><i class="fa-solid fa-bars fa-2x"></i></label>
       </div>
-    </nav>
-    <!-- End Navbar -->
+    </header>
+    <!-- End Header -->
+    <!-- Header Bikin Sendiri Tanpa Boostrap -->
 
     <!-- Jumbotron -->
-
     <section class="jumbotron text-center">
+      <!-- Gambar Profile -->
       <img src="img/foto.png" alt="Abian" width="200px" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4"><span class="efek-ngetik fw-bold">...</span></h1>
-      <p class="lead">Programmer | Web Developer</p>
+      <!-- Nama -->
+      <h1 class="display-4 fw-bold"><span class="efek-ngetik fw-bold">...</span></h1>
+      <p class="lead">Web Developer | Programmer | Freelancer</p>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
@@ -74,19 +81,19 @@
 
         <div class="row justify-content-center fs-5 text-center">
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In necessitatibus dolores quia, exercitationem qui expedita commodi recusandae blanditiis dicta placeat!</p>
+            <p>Nama Saya Abian Ayatullah Fikri, Biasa di panggil Abian. Saya merupakan Mahasiswa di Universitas Muhammadiyah Yogyakarta, <b>Jurusan S1 Teknologi Informasi</b></p>
           </div>
           <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quas, a quod harum expedita, voluptatum omnis odio iste sequi obcaecati dolore sint veritatis minus facere.</p>
+            <p>Pengalaman pribadi selama menjadi mahasiswa adalah membuat projects berbasis Web,Android dan Database</p>
           </div>
         </div>
       </div>
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#e2edff"
+          fill="#ebffe2"
           fill-opacity="1"
-          d="M0,288L48,240C96,192,192,96,288,85.3C384,75,480,149,576,202.7C672,256,768,288,864,298.7C960,309,1056,299,1152,266.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          d="M0,224L34.3,192C68.6,160,137,96,206,85.3C274.3,75,343,117,411,149.3C480,181,549,203,617,213.3C685.7,224,754,224,823,192C891.4,160,960,96,1029,90.7C1097.1,85,1166,139,1234,154.7C1302.9,171,1371,149,1406,138.7L1440,128L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
         ></path>
       </svg>
     </section>
@@ -150,7 +157,7 @@
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="/img/keyboar1.jpg" class="card-img-top" alt="..." />
+              <a href="https://github.com/abianfikri/abianfikri.github.io"><img src="/img/keyboar1.jpg" class="card-img-top" alt="..." /></a>
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -159,7 +166,7 @@
 
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="/img/robot.jpg" class="card-img-top" alt="..." />
+              <a href="https://github.com/abianfikri/Aplikasi-Android-Rental-Kendaraan"><img src="/img/robot.jpg" class="card-img-top" alt="..." /></a>
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -168,7 +175,7 @@
 
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="/img/cyber.jpg" class="card-img-top" alt="..." />
+              <a href=""><img src="/img/cyber.jpg" class="card-img-top" alt="..." /></a>
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -177,7 +184,7 @@
 
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="/img/robot.jpg" class="card-img-top" alt="..." />
+              <a href=""><img src="/img/robot.jpg" class="card-img-top" alt="..." /></a>
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -186,7 +193,7 @@
 
           <div class="col-md-4 mb-3">
             <div class="card">
-              <img src="/img/keyboar1.jpg" class="card-img-top" alt="..." />
+              <a href=""><img src="/img/keyboar1.jpg" class="card-img-top" alt="..." /></a>
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -197,9 +204,9 @@
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#e2edff"
+          fill="#ebffe2"
           fill-opacity="1"
-          d="M0,224L34.3,234.7C68.6,245,137,267,206,256C274.3,245,343,203,411,170.7C480,139,549,117,617,101.3C685.7,85,754,75,823,80C891.4,85,960,107,1029,138.7C1097.1,171,1166,213,1234,208C1302.9,203,1371,149,1406,122.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          d="M0,256L48,250.7C96,245,192,235,288,208C384,181,480,139,576,112C672,85,768,75,864,101.3C960,128,1056,192,1152,202.7C1248,213,1344,171,1392,149.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
@@ -241,17 +248,17 @@
 
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
-          fill="#0d6efd"
+          fill="#8ae161"
           fill-opacity="1"
-          d="M0,224L48,229.3C96,235,192,245,288,224C384,203,480,149,576,138.7C672,128,768,160,864,192C960,224,1056,256,1152,234.7C1248,213,1344,139,1392,101.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          d="M0,320L48,293.3C96,267,192,213,288,202.7C384,192,480,224,576,218.7C672,213,768,171,864,165.3C960,160,1056,192,1152,181.3C1248,171,1344,117,1392,90.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
         ></path>
       </svg>
     </section>
     <!-- End Contact -->
 
     <!-- Start Footer -->
-    <footer class="bg-primary text-white text-center p-4">
-      <p>Create By <a href="#" class="text-white fw-bold text-decoration-none">Abian Ayatullah Fikri</a></p>
+    <footer class="text-white text-center p-4" style="background-color: #8ae161">
+      <p>Create By <a href="" class="text-white fw-bold text-decoration-none">Abian Ayatullah Fikri</a></p>
     </footer>
     <!-- End Footer -->
 

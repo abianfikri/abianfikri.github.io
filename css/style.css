@@ -4,12 +4,12 @@ section {
 
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #ebffe2;
 }
 
 /* Section Skill */
 #skill {
-  background-color: #e2edff;
+  background-color: #ebffe2;
 }
 #skill .bar {
   background-color: #fff;
@@ -48,5 +48,131 @@ section {
 
 /* Section Contact */
 #contact {
-  background-color: #e2edff;
+  background-color: #ebffe2;
+}
+
+/* Header */
+header {
+  height: 70px;
+  background-color: #8ae161;
+}
+
+header h1 {
+  display: inline-block;
+  padding: 16px 24px;
+  text-transform: uppercase;
+}
+
+header h1 a:hover {
+  color: red;
+  transition: 0.6s;
+}
+
+header ul {
+  float: right;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 24px;
+}
+
+header ul li a:hover {
+  color: red;
+  transition: 0.6s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* End Header */
+
+/* Mobile Menu */
+.mobile-menu {
+  padding: 20px;
+  float: right;
+  display: none;
+}
+
+.mobile-menu:hover {
+  cursor: pointer;
+}
+
+#check {
+  position: relative;
+  display: none;
+}
+/* End Mobile Menu */
+
+/* SideBar */
+.sidebar {
+  top: 70px;
+  left: -300px;
+  bottom: 0;
+  width: 300px;
+  background-color: rgba(16, 47, 80, 0.9);
+}
+
+#check:checked ~ .sidebar {
+  left: -30px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+}
+
+.sidebar ul li:hover {
+  background-color: #f84744;
+}
+
+.sidebar ul li {
+  list-style: none;
+  padding: 24px;
+  transition: 0.3s;
+  transition-property: background-color;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu {
+    display: block;
+  }
+
+  header ul {
+    display: none;
+  }
+}
+/* End Side Bar */
+
+.container .card:hover {
+  margin: -20px;
+}
+
+section h2 {
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 20px;
+  position: relative;
+}
+
+section h2::before {
+  content: "";
+  display: block;
+  bottom: 0;
+  position: absolute;
+  height: 4px;
+  width: 50px;
+  background-color: #f84744;
+  left: calc(50% - 25px);
 }

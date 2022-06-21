@@ -21,3 +21,5 @@ let words = "";
 
   setTimeout(ngetik, 400);
 })();
+
+alert("Selamat Datang");
